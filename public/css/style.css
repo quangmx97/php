@@ -1,0 +1,656 @@
+*{
+  margin: 0px;
+  padding : 0px;
+  
+}
+
+body{
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+.container-wp{
+  margin: 0px auto;
+  
+}
+
+.header{
+  width: 100%;
+  overflow: hidden;
+  float: left;
+}
+
+.topbar-wp{
+  background: #f0ad4e;
+  height: 30px;
+  color: #FFF;
+  line-height: 30px;
+  overflow: hidden;
+}
+
+.topbar-wp a{
+  color: #FFF;
+}
+
+.topbar-wp a:hover{
+  text-decoration: none;
+}
+
+.bar-left{
+  float: left;
+}
+
+.bar-right{
+  float: right;
+}
+
+.bar-right span{
+  border-right: 1px solid #444444;
+  margin-right: 5px;
+  padding-right: 5px;
+}
+
+.logo-wp{
+  overflow: hidden;
+  background:red;
+  padding: 30px 0px;
+  border-bottom: 1px solid #DDDDDD;
+  box-shadow: 1px 1px 1px #CCCCCC;
+  background:url('../../image/info-wp/hinh-nen-mua-xuan-5547e8116ef022.jpg') left top;
+  float: left;
+  width: 100%;
+}
+
+.logo-wp .logo{
+  float: left;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.logo-wp .logo img{
+  float: left;
+  overflow: hidden;
+}
+
+.info-wp{
+  float: left;
+  padding-top: 20px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.info-wp .item-giaohang{
+  float: left;
+  overflow: hidden;
+  width: 238px;
+  margin-left: 7px;
+  
+}
+
+.info-wp .item-giaohang img{
+  float: left;
+  width: 50px;
+  overflow: hidden;
+  padding-right: 8px;
+}
+
+.item-giaohang input{
+  padding : 3px 5px;
+}
+
+.item-giaohang button{
+      padding: 3px;
+}
+
+
+
+.info-wp .item-giaohang h5, p{
+  margin: 0px;
+  overflow: hidden;
+}
+
+.info-wp .item-giaohang h5{
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 3px;
+}
+
+/*/menu */
+
+.menu-wp{
+  background: #f0ad4e;
+  width: 100%;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+}
+
+.menu-wp ul{
+  z-index: 999;
+}
+
+.menu-wp ul li{
+  float: left;
+  /*padding: 15px 20px;*/
+  padding: 0px 20px;
+  position: relative;
+  list-style: none;
+}
+
+.menu-wp ul li a{
+  color: #FFF;
+  text-align: center;
+}
+
+.menu-wp ul li a:hover{
+  text-decoration: none;
+  color: #f3ed09;
+}
+
+.menu-wp ul li ul{
+  display: none;
+  position: absolute;
+  background:#f0ad4e;
+  
+}
+
+.menu-wp ul li ul li{
+ width: 230px;
+ border-bottom: 0.2px solid white;
+}
+
+
+.menu-wp ul li:hover ul{
+  display: block;
+
+}
+
+
+
+/* start menu */
+/*.menu-wp{
+  width: 100%;
+  display: block;
+  
+}
+
+.menu-wp ul{
+  list-style: none;
+  background: #C30;
+  border-radius: 5px 5px 0px 0px;
+  z-index: 999;
+}
+
+ .menu-wp ul li{
+  display: inline-table;
+  padding: 8px;
+  position: relative;
+}
+
+ .menu-wp ul li a{
+  color: #fff;
+  text-decoration:none;
+  padding: 10px;
+  text-align:center;
+  
+}
+ .menu-wp ul li:hover{
+  background: #F60;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.menu-wp ul li ul{
+  display: none;
+  position: absolute;
+}
+
+.menu-wp ul li:hover ul{
+  display: block;
+  width: 200px;
+  margin-left: -10px;
+}
+*/
+/*end menu */
+
+.content{
+  margin: 30px 0px;
+  overflow: hidden;
+  width: 100%;
+  float: left;
+}
+
+.left-wp{
+  width: 240px;
+  float: left;
+  overflow: hidden;
+}
+
+.left-wp .item-left{
+  margin-bottom: 10px;
+}
+
+.left-wp .danhmucsanpham{
+  width: 240px;
+  overflow: hidden;
+  float: left;
+  margin: 0px;
+  border: 1px solid #EEEEEE;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.left-wp .danhmucsanpham h3{
+  margin: 0px;
+  background: #f0ad4e;
+  padding: 8px;
+  color: #FFF;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+}
+
+.left-wp .danhmucsanpham ul li{
+  list-style-type: none;
+  padding: 10px 0px 10px 15px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.left-wp .danhmucsanpham ul li a{
+  color: #333333e6;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.left-wp .danhmucsanpham ul li a:hover{
+  color: #EC008C;
+  text-decoration: none;
+}
+
+.left-wp .danhmucsanpham li.hotro{
+  list-style: none;
+  padding-left: 20px;
+  padding: 10px 0px 10px 15px;
+  border-bottom: 1px dotted #DDDDDD;
+}
+
+.left-wp .danhmucsanpham li.hotro a{
+  color: #f0ad4e;
+}
+
+.left-wp .danhmucsanpham span img.icon-sky{
+  width: 20px;
+}
+
+.content-wp{
+ width: 858px;
+ float: left;
+ overflow: hidden;
+ margin-left: 40px;
+}
+
+.content-wp .slider{
+ width: 858px;
+ float: left;
+ overflow: hidden;
+ margin-bottom: 40px;
+}
+
+.content-wp .sanphammoinhat {
+ width: 858px;
+ float: left;
+ overflow: hidden;
+ /*margin-top: 10px;*/
+ margin-bottom: 10px;
+}
+.content-wp .sanphammoinhat h3{
+ margin: 0px;
+ background: #f0ad4e;
+ padding: 8px;
+ color: #FFF;
+ font-weight: bold;
+ font-family: "Roboto Condensed", sans-serif;
+ font-size: 18px;
+ overflow: hidden;
+}
+.content-wp .sanphammoinhat .item-product{
+  width: 205px;
+  float: left;
+  border: 1px solid #CCCCCC;
+  margin: 5px;
+  overflow: hidden;
+  margin-left: 4px;
+}
+
+a.tieude-product{
+  color: black;
+}
+
+a.tieude-product:hover{
+  color:#f0ad4e;
+}
+
+.content-wp .sanphammoinhat .item-product {
+ height: 330px;
+  margin-bottom: 20px;
+}
+
+.content-wp .sanphammoinhat .item-product img{
+  width: 205px;
+  float: left;
+  overflow: hidden;
+  height: 200px;
+  margin-bottom: 6px;
+}
+
+.content-wp .sanphammoinhat .item-product img{
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+.content-wp .sanphammoinhat .item-product img:hover {
+  transform: scale(0.5,0.5);
+  -webkit-transform: scale(1.5,1.5);
+  -moz-transform: scale(1.5,1.5);
+  -o-transform: scale(1.5,1.5);
+  -ms-transform: scale(1.5,1.5);
+}
+
+
+.content-wp .sanphammoinhat a:hover{
+  text-decoration: none;
+}
+
+.content-wp .sanphammoinhat .item-product .info-product{
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.content-wp .sanphammoinhat .item-product .info-product p.gia{
+  color: red;
+  font-weight: 600;
+}
+
+.content-wp .sanphammoinhat .item-product .info-product a.themgio{
+  background: #f0ad4e;
+  padding: 5px;
+  border-radius: 10px;
+  color: #FFF;
+}
+
+.content-wp .sanphammoinhat .item-product .info-product a.themgio:hover{
+  text-decoration: none;
+}
+
+.content{
+  width: 100%;
+  overflow: hidden;
+  float: left;
+}
+
+
+.footer{
+  width:100%;
+  overflow: hidden;
+  float: left;
+  background: #f0ad4e;
+  margin-top: 20px;
+}
+
+.footer .footer-wp {
+  padding: 0px 0px 20px 0px;
+  color: #FFF;
+}
+
+.footer .footer-wp .info h3{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer .footer-wp .info .info-body li{
+  list-style: none;
+}
+
+.footer .footer-wp .info .info-body li a{
+  color: #EEEEEE;
+
+}
+.footer .footer-wp .info .info-body li a:hover{
+  text-decoration: none;
+  color: #f0ad4e;
+}
+
+
+.footer .footer-wp .info ul li{
+  list-style: none;
+  padding: 10px 0px 10px 15px;
+  border-bottom: 1px solid #FFF;
+}
+.footer .footer-wp .info ul li a{
+  color: #FFF;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+
+}
+
+.footer .footer-wp .info ul li a:hover{
+  color: gray;
+}
+
+.footerbar {
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  background: #443838;
+  margin-top: 0px;
+  color: #c7bbbb;
+  padding: 5px;
+}
+
+/*/ chi tiết sản phẩm */
+
+.info-title-product{
+  background: #f0ad4e;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.card{
+  padding: 5px;
+}
+
+.product-image{
+  padding: 20px;
+  border: 1px  solid #DDDDDD;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.product-image .hinhanh-product{
+  width: 300px;
+  float: left;
+  overflow: hidden;
+  height: 300px;
+  border: 2px solid #EEEEEE;
+}
+
+.product-image .hinhanh-product img{
+  width: 300px;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+.product-image .hinhanh-product img:hover{
+ transform: scale(0.5,0.5);
+ -webkit-transform: scale(1.5,1.5);
+ -moz-transform: scale(1.5,1.5);
+ -o-transform: scale(1.5,1.5);
+ -ms-transform: scale(1.5,1.5);
+}
+
+.product-image .thongtin-product{
+  overflow: hidden;
+  float: right;
+  width: 450px;
+  padding: 0px 0px 10px 10px;
+}
+
+.info-title-product h3{
+  margin: 0px;
+  color: #FFF;
+  padding: 7px 0px 10px 7px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+}
+
+.product-image .thongtin-product h3{
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.product-image .thongtin-product tr td{
+  margin: 30px;
+}
+
+.product-image .thongtin-product a{
+  padding:0px;
+}
+
+.product-image .add-product{
+  margin: 10px 0px;
+  overflow: hidden;
+}
+
+.product-image .add-product a:hover{
+  text-decoration: none;
+}
+
+.product-image .add-product a.mua-ngay{
+  color: #FFF;
+  padding: 15px 10px;
+}
+
+.product-image .add-product a.mua-ngay img{
+  width: 150px;
+  overflow: hidden;
+}
+
+.product-image .add-product a.them-gio{
+  background: #009688;
+  color: #FFF;
+  padding: 10px;
+}
+
+.add-product{
+  float:left;
+  overflow: hidden;
+}
+
+
+span.capnhatgiohang{
+  color: #5BA61B;
+  padding: 3px 5px;
+  font-weight: bold;
+}
+
+span.capnhatgiohang a{
+  color: #5BA61B;
+  padding: 2px 4px;
+  font-weight: bold;
+}
+
+span.capnhatgiohang a:hover{
+  color: #5BA61B;
+  padding: 2px 4px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+button#capnhatgiohang{
+  padding: 3px 5px;
+}
+
+thead{
+  background: #f0ad4e;
+}
+
+.nav-tabs>li>a{
+  border-color: #eee #eee #ddd;
+  background: #f0ad4e;
+  color: #FFF;
+}
+
+.nav-tabs>li>a:hover {
+  border-color: #eee #eee #ddd;
+  background: #f0ad4e;
+}
+
+/*end chi tiết sản phẩm */
+
+.viewcart{
+  margin: 0px 0px 50px 0px;
+}
+.viewcart h3{
+  margin-top: 2px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.thongtindathang h3{
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.dathangthanhcong{
+  width: 100%;
+  border: 1px solid #DDDDDD;
+  padding: 20px;
+}
+
+.dathangthanhcong h3{
+  color: green;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.dathangthatbai{
+  width: 100%;
+  border: 1px solid #DDDDDD;
+  padding: 20px;
+}
+
+.dathangthatbai h4{
+    color: red;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.sanphamtimkiem{
+  width: 100%;
+  float: left;
+  border: 1px solid #DDDDDD;
+  overflow: hidden;
+}
+
+.sanphamtimkiem h3{
+  margin: 0px;
+  background: #f0ad4e;
+  color: #FFF;
+  padding: 3px;
+  padding: 3px 15px;
+}
+
+.sanphamtimkiem .ketqua{
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  padding: 10px;
+  padding-bottom: 40px;
+
+}
+

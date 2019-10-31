@@ -1,0 +1,38 @@
+ <!-- link style css của toàn bộ chương trình -->
+    <link type="text/css" href="public/css/style.css"/>
+    <!-- Bootstrap core CSS-->
+    <link href="../public/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Page level plugin CSS-->
+    <link href="../public/css/dataTables.bootstrap4.css" rel="stylesheet">
+    <!-- Custom fonts for this template-->
+    <link href="../public/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../public/css/font-awesome.css" rel="stylesheet" type="text/css">
+    
+         <!--  <link href="../public/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+        <link href="../public/css/fontawesome.css" rel="stylesheet" type="text/css">
+          <link href="../public/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+        <link href="../public/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+        <link href="../public/css/fa.css" rel="stylesheet" type="text/css"> -->
+        <!-- Custom styles for this template-->
+        <link href="../public/css/sb-admin.css" rel="stylesheet">
+        <!--  gọi file ckeditor.js -->
+        <script src="ckeditor/ckeditor.js"></script>
+        <script src="ckeditor/ckfinder/ckfinder.js"></script>
+
+
+
+
+        <!-- Bootstrap core JavaScript-->
+<script src="../public/js/jquery.min.js"></script>
+<script src="../public/js/bootstrap.bundle.min.js"></script>
+<!-- Core plugin JavaScript-->
+<script src="../public/js/jquery.easing.min.js"></script>
+<!-- Page level plugin JavaScript-->
+<script src="../public/js/jquery.dataTables.js"></script>
+<script src="../public/js/dataTables.bootstrap4.js"></script>
+<!-- Custom scripts for all pages-->
+<script src="../public/js/sb-admin.min.js"></script>
+<!-- Custom scripts for this page-->
+<script src="../public/js/sb-admin-datatables.min.js"></script>
+
+<script src="ajax.js"></script>
